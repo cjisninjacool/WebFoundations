@@ -1,0 +1,12 @@
+{
+    "name": "l07-assignment",
+    "version": "1.0.0",
+    "description": "Testing TypeScript code",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node index.js"
+    },
+    "dependencies": {
+        "random": "^3.0.6"
+    }
+}
