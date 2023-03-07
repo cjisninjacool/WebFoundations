@@ -1,0 +1,9 @@
+{
+    "name": "l01-2-assignment",
+    "version": "1.0.0",
+    "description": "Testing TypeScript code",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node index.js"
+    }
+}
