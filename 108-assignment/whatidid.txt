@@ -1,0 +1,3 @@
+I noticed that at the end of the list it wasnt putting the last word
+I figued out that it only adds the word to the result list if the index after it was a string
+so all i did is said if the list ends it adds the word before to the list before it ends
