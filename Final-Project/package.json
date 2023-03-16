@@ -1,0 +1,12 @@
+{
+    "name": "final-project",
+    "version": "1.0.0",
+    "description": "Testing TypeScript code",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node index.js"
+    },
+    "devDependencies": {
+        "@types/randomstring": "^1.1.8"
+    }
+}
