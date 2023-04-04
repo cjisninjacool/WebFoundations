@@ -1,0 +1,29 @@
+<h1>{{title}}</h1>
+<table *ngIf="viewTable">
+  <tbody>
+    <tr *ngFor = "let contact of experienceList">
+      <div>
+        <h2>{{contact.companyName}} , {{contact.jobTitle}}</h2>
+        <br>
+        <h4>{{contact.description}}</h4>
+      </div>
+
+    </tr>
+  </tbody>
+</table>
+<button (click) = "toggleTable()">SHOW/HIDE TABLE</button>
+
+<style>
+  div{
+    width: 150%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+</style>

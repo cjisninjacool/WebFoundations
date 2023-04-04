@@ -1,5 +1,4 @@
 import moment = require('moment');
-import generatePass from './PasswordGenerator';
 
 
 function generateDate(){
