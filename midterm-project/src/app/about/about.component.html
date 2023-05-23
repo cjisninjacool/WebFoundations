@@ -1,3 +1,10 @@
+<ul>
+  <li><a href="">Home</a></li>
+  <li><a class = "active" href="/about">About</a></li>
+  <li><a href="/jobs">Jobs</a></li>
+</ul>
+<body>
+
 <h1 class="title">About</h1>
 <p>John started his programming journey with basic HTML and CSS coding. He then delved into JavaScript and Python,
    exploring the possibilities of web development and machine learning. As he gained more experience, he began to
@@ -6,11 +13,15 @@
     and continued to expand his skills through online courses and collaboration with other developers. Now, with
     several successful projects under his belt, John is excited to see where his programming journey will take him
     next.</p>
-<h3>Skills:</h3>
-<h3 class="tab">  • Python</h3>
-<h3 class="tab">  • CSS</h3>
-<h3 class="tab">  • Html</h3>
-<h3 class="tab">  • JavaScript</h3>
+  </body>
+<div class="Skills">
+  <h3>Skills:</h3>
+  <h3 class="tab">  • Python</h3>
+  <h3 class="tab">  • CSS</h3>
+  <h3 class="tab">  • Html</h3>
+  <h3 class="tab">  • JavaScript</h3>
+</div>
+
 <style type="text/css">
   .tab {
     margin-left: 40px;
@@ -19,3 +30,37 @@
     text-align: center;
   }
 </style>
+<style>
+  .Skills{
+    padding-left: 3%;
+  }
+  body{
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+  background-color: #04AA6D;
+  }
+  </style>

@@ -1,1 +1,57 @@
-<p>job-details works!</p>
+<ul>
+  <li><a  href="">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a class = "active" href="/jobs">Jobs</a></li>
+</ul>
+
+<body>
+
+  <h3>Job Details</h3>
+
+  <br>
+  <div *ngIf="job" class = 'div'>
+    <p>Job Title: {{job.title}}</p>
+    <p>Job Description: {{job.description}}</p>
+    <p>Job Duration: {{job.duration}}</p>
+    <p>Job Employer: {{job.employer}}</p>
+  </div>
+
+  <p [routerLink]="['/jobs']">Back</p>
+</body>
+
+<style>
+  body{
+    padding-top: 5%;
+    text-align: center;
+  }
+  div{
+    border-style: solid;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+  background-color: #04AA6D;
+  }
+</style>
